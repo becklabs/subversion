@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "subversion"
+version = "0.0.1"
+description = "How good are LLMs at subverting each other?"
+authors = ["Beck Labash <becklabash@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+litellm = "1.56.4"
+instructor = "1.7.2"
+colorama = "0.4.6"
